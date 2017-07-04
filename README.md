@@ -7,7 +7,8 @@
 *****
 抽出来的这个Demo总共有14个输入框，上面7个用来放（0-10.0）的数值，下面7个用来放对应的标签，点击下方按钮，即可展示效果：
 
-
-![](https://github.com/DepponMain/ComatEffectivenessView/raw/master/ComatEffectivenessView/Picture/Pic01.png)
-
 ![](https://github.com/DepponMain/ComatEffectivenessView/blob/master/Picture/Pic01.png)
+
+![](https://github.com/DepponMain/ComatEffectivenessView/blob/master/Picture/Pic02.png)
+
+![](https://github.com/DepponMain/ComatEffectivenessView/blob/master/Picture/Pic03.png)
