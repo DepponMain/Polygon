@@ -5,4 +5,9 @@
 *****
 在网上查了一些Demo，基本上都是固定的五边形或者六边形，并不能根据章节数的不同自动切换。所以就决定自己来写了！（被逼无奈的...有合适的Demo数自己写啊，PS：这句是废话，哈哈~~）
 *****
-抽出来的这个Demo总共有14个输入框，上面7个用来放（0-10.0）的数值，下面7个用来放
+抽出来的这个Demo总共有14个输入框，上面7个用来放（0-10.0）的数值，下面7个用来放对应的标签，点击下方按钮，即可展示效果：
+
+
+![](https://github.com/DepponMain/ComatEffectivenessView/raw/master/ComatEffectivenessView/Picture/Pic01.png)
+
+![](https://github.com/DepponMain/ComatEffectivenessView/blob/master/Picture/Pic01.png)
