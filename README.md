@@ -7,7 +7,7 @@
 
 抽出来的这个Demo总共有14个输入框，上面7个用来放（0-10.0）的数值，下面7个用来放对应的标签，点击下方按钮，即可展示效果 ↓
 
-
+![](https://github.com/DepponMain/ComatEffectivenessView/raw/master/GIF/Comat.gif)
 
 任意多边形的关键在于对于顶点所在象限的判断，判断出所在象限，再以中心点坐标为基准，X、Y坐标分别加或者减绝对值即可得出顶点坐标；
 
