@@ -12,7 +12,7 @@
 
 ## 思路
 任意多边形的关键在于对于顶点所在象限的判断，判断出所在象限，再以中心点坐标为基准，X、Y坐标分别加或者减绝对值即可得出顶点坐标；
-##重点代码
+## 重点代码
 	float longest = self.bounds.size.width / 2;// 最长的长度（即传入10的时候的长度）
     
     CGPoint center = CGPointMake(self.bounds.size.width / 2, self.bounds.size.height / 2);// View中心点
