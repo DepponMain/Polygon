@@ -1,4 +1,4 @@
-# ComatEffectivenessView
+# Polygon
 任意多边形 类似战力分布图表
 
 ## 需求
