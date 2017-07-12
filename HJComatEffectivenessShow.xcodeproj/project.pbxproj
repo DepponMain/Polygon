@@ -48,10 +48,10 @@
 		5C12FE7F1F0B6C380022DE51 /* ComatEffectiveness */ = {
 			isa = PBXGroup;
 			children = (
-				5C12FE801F0B6C380022DE51 /* ComatEffectivenessLine.h */,
-				5C12FE811F0B6C380022DE51 /* ComatEffectivenessLine.m */,
 				5C12FE821F0B6C380022DE51 /* ComatEffectivenessView.h */,
 				5C12FE831F0B6C380022DE51 /* ComatEffectivenessView.m */,
+				5C12FE801F0B6C380022DE51 /* ComatEffectivenessLine.h */,
+				5C12FE811F0B6C380022DE51 /* ComatEffectivenessLine.m */,
 			);
 			path = ComatEffectiveness;
 			sourceTree = "<group>";

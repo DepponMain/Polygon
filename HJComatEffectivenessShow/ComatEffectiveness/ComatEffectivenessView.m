@@ -175,28 +175,4 @@
     [self setNeedsDisplay];
 }
 
-//- (void) creatLabels{
-//#pragma mark -- 创建Label
-//    NSInteger sideCount = _Names.count;
-//    CGFloat angle = 360.0 / sideCount;
-//    CGPoint center = CGPointMake(self.bounds.size.width / 2, self.bounds.size.height / 2);// View中心点
-//    for (int i = 0; i < _Names.count; i++) {
-//        for (int i = 0;i < _Names.count; i ++) {
-//            UILabel *label = [[UILabel alloc] init];
-//            label.text = _Names[i];
-//            label.textAlignment = NSTextAlignmentCenter;
-//            [label sizeToFit];
-//            [self addSubview:label];
-//            
-//            CGFloat radius = self.bounds.size.width/2 - label.bounds.size.width/2;
-//            CGPoint peakCenter = [self calcCircleCoordinateWithCenter:CGPointMake(center.x, center.y) andWithAngle:angle * i + 90 andWithRadius:radius];
-//            label.frame = CGRectMake(peakCenter.x - label.bounds.size.width/2, peakCenter.y - label.bounds.size.height/2, label.bounds.size.width, label.bounds.size.height);
-//        }
-//    }
-//}
-//- (CGPoint)calcCircleCoordinateWithCenter:(CGPoint)center andWithAngle:(CGFloat)angle andWithRadius:(CGFloat)radius{
-//    CGFloat x2 = radius*cosf(angle*M_PI/180);
-//    CGFloat y2 = radius*sinf(angle*M_PI/180);
-//    return CGPointMake(center.x+x2, center.y-y2);
-//}
 @end

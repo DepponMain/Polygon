@@ -6,6 +6,8 @@
 //  Copyright © 2017年 haiJiang. All rights reserved.
 //
 
+#define ValuesMax 10 // 分数最大值（我写的0-10）
+
 #import "ComatEffectivenessLine.h"
 
 @interface ComatEffectivenessLine ()
@@ -37,8 +39,8 @@
             
             float fenMu = (float)i / _count;
             
-            float xx = fabs(longest / 10 * [_Values[i] floatValue] * sin(2 * M_PI * fenMu));
-            float yy = fabs(longest / 10 * [_Values[i] floatValue] * cos(2 * M_PI * fenMu));
+            float xx = fabs(longest / ValuesMax * [_Values[i] floatValue] * sin(2 * M_PI * fenMu));
+            float yy = fabs(longest / ValuesMax * [_Values[i] floatValue] * cos(2 * M_PI * fenMu));
             
             if (i == 0) {
                 x = center.x;
@@ -85,8 +87,8 @@
         
         float fenMu = (float)i / _count;
         
-        float xx = fabs(longest / 10 * [_Values[i] floatValue] * sin(2 * M_PI * fenMu));
-        float yy = fabs(longest / 10  * [_Values[i] floatValue] * cos(2 * M_PI * fenMu));
+        float xx = fabs(longest / ValuesMax * [_Values[i] floatValue] * sin(2 * M_PI * fenMu));
+        float yy = fabs(longest / ValuesMax  * [_Values[i] floatValue] * cos(2 * M_PI * fenMu));
         
         if (i < oneTwo) {
             x = center.x + xx;
@@ -116,7 +118,7 @@
 }
 - (void)showTheFiveScoreWithContext:(CGContextRef)ctx{
 #pragma mark -- 调边线宽度
-    CGContextSetLineWidth(ctx, 2);
+    CGContextSetLineWidth(ctx, 1.5);
     CGContextSetLineCap(ctx, kCGLineCapRound);
     CGContextSetLineJoin(ctx, kCGLineJoinRound);
 #pragma mark -- 调边线颜色
